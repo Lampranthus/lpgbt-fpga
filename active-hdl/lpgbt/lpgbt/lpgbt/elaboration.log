@@ -1,0 +1,40 @@
+Active-HDL 15.0.261.9132 2025-03-22 21:45:40
+
+Elaboration top modules:
+Architecture                  behavioral(lpgbtfpga_uplink)
+
+
+----------------------------------------------------------------------------------------------------------
+Entity                  | Architecture | Library | Info | Compiler Version          | Compilation Options
+----------------------------------------------------------------------------------------------------------
+lpgbtfpga_uplink        | behavioral   | lpgbt   |      | 15.0.261.9132 (Windows64) | -O3
+lpgbtfpga_framealigner  | behavioral   | lpgbt   |      | 15.0.261.9132 (Windows64) | -O3
+lpgbtfpga_deinterleaver | behavioral   | lpgbt   |      | 15.0.261.9132 (Windows64) | -O3
+lpgbtfpga_decoder       | behavioral   | lpgbt   |      | 15.0.261.9132 (Windows64) | -O3
+lpgbtfpga_descrambler   | behavioral   | lpgbt   |      | 15.0.261.9132 (Windows64) | -O3
+lpgbtfpga_rxGearbox     | behavioral   | lpgbt   |      | 15.0.261.9132 (Windows64) | -O3
+rs_decoder_N31K29       | behavioral   | lpgbt   |      | 15.0.261.9132 (Windows64) | -O3
+rs_decoder_N15K13       | behavioral   | lpgbt   |      | 15.0.261.9132 (Windows64) | -O3
+descrambler58bitOrder58 | behavioral   | lpgbt   |      | 15.0.261.9132 (Windows64) | -O3
+descrambler60bitOrder58 | behavioral   | lpgbt   |      | 15.0.261.9132 (Windows64) | -O3
+descrambler51bitOrder49 | behavioral   | lpgbt   |      | 15.0.261.9132 (Windows64) | -O3
+descrambler53bitOrder49 | behavioral   | lpgbt   |      | 15.0.261.9132 (Windows64) | -O3
+----------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------
+VHDL Package                           | Library | Info | Compiler Version          | Compilation Options
+----------------------------------------------------------------------------------------------------------
+standard                               | std     |      |                           | <unavailable>
+TEXTIO                                 | std     |      | 15.0.261.9132 (Windows64) |  -2019
+std_logic_1164                         | ieee    |      | 15.0.261.9132 (Windows64) |  -2008
+NUMERIC_STD                            | ieee    |      | 15.0.261.9132 (Windows64) |  -2008
+lpgbtfpga_package                      | lpgbt   |      | 15.0.261.9132 (Windows64) | -O3
+----------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------
+Library                                | Comment
+----------------------------------------------------------------------------------------------------------
+ieee                                   | Standard IEEE packages library
+lpgbt                                  | None
+std                                    | Standard VHDL library
+----------------------------------------------------------------------------------------------------------

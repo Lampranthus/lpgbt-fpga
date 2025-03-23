@@ -1,0 +1,66 @@
+<config>
+    <version>
+        3.1
+    </version>
+    <comment>
+    </comment>
+    <databases>
+        <database id="">*virtual*</database>
+        <database id="1413332cf03bb555df677628cb0f1d00">downlink.asdb</database>
+    </databases>
+    <gridshown/>
+    <signallists>
+        <signallist id="0">
+        <signal>/lpgbtfpga_downlink/rst_s</signal>
+        <signal>/lpgbtfpga_downlink/gbRst_s</signal>
+        <signal>/lpgbtfpga_downlink/gbRdy_s</signal>
+        <signal>/lpgbtfpga_downlink/encodedFrame_s</signal>
+        <signal>/lpgbtfpga_downlink/inputData_s</signal>
+        <signal>/lpgbtfpga_downlink/scrambledData_s</signal>
+        <signal>/lpgbtfpga_downlink/FECData_s</signal>
+        <signal>/lpgbtfpga_downlink/clkOutEn_s</signal>
+        <signal>/lpgbtfpga_downlink/rst_synch_s</signal>
+        <signal>/lpgbtfpga_downlink/clk_i</signal>
+        <signal>/lpgbtfpga_downlink/clkEn_i</signal>
+        <signal>/lpgbtfpga_downlink/rst_n_i</signal>
+        <signal>/lpgbtfpga_downlink/userData_i</signal>
+        <signal>/lpgbtfpga_downlink/ECData_i</signal>
+        <signal>/lpgbtfpga_downlink/ICData_i</signal>
+        <signal>/lpgbtfpga_downlink/mgt_word_o</signal>
+        <signal>/lpgbtfpga_downlink/interleaverBypass_i</signal>
+        <signal>/lpgbtfpga_downlink/encoderBypass_i</signal>
+        <signal>/lpgbtfpga_downlink/scramblerBypass_i</signal>
+        <signal>/lpgbtfpga_downlink/rdy_o</signal>
+        </signallist>
+    </signallists>
+    <timebases>
+        <timebase id="0">
+            <time start_time="0" end_time="206417" />
+        </timebase>
+    </timebases>
+    <prefbases>
+        <prefbase id="0" >
+        </prefbase>
+    </prefbases>
+    <bookmarkbases>
+        <bookmarks id="0">
+        </bookmarks>
+    </bookmarkbases>
+    <cursorbases>
+        <cursors id="0">
+            <cursor value="65625" label="Cursor 21" locked="0" />
+            <cursor value="93750" label="Cursor 22" locked="0" />
+            <cursor value="121875" label="Cursor 23" locked="0" />
+            <cursor value="28125" label="Cursor 24" locked="0" />
+        </cursors>
+    </cursorbases>
+    <measurementbases>
+    </measurementbases>
+    <commentbases>
+        <comments id="0">
+        </comments>
+    </commentbases>
+    <views>
+        <view signallist="0" propertybase="0" prefbase="0" type="1" bookmarks="0" cursors="0" measurements="-1" comments="-1" />
+    </views>
+</config>

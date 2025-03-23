@@ -1,0 +1,70 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=lpgbt
+[Library]
+lpgbt=.\lpgbt\lpgbt.lib
+[$LibMap$]
+lpgbt=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+fileopenfolder=C:\Users\Lampranthus\Documents\FCFM-Master\Tesis\lpgbt\active-hdl\lpgbt\lpgbt\src\downlink
+[Files.Data]
+.\src\lpgbtfpga_uplink.vhd=VHDL Source Code
+.\src\lpgbtfpga_downlink.vhd=VHDL Source Code
+.\src\lpgbtfpga_package.vhd=VHDL Source Code
+.\src\downlink.asdb=Accelerated Waveform File
+.\src\downlink.awc=Accelerated Waveform Configuration
+.\src\down\lpgbtfpga_encoder.vhd=VHDL Source Code
+.\src\down\lpgbtfpga_interleaver.vhd=VHDL Source Code
+.\src\down\lpgbtfpga_scrambler.vhd=VHDL Source Code
+.\src\down\lpgbtfpga_txgearbox.vhd=VHDL Source Code
+.\src\down\rs_encoder_N7K5.vhd=VHDL Source Code
+.\src\up\descrambler_51bitOrder49.vhd=VHDL Source Code
+.\src\up\descrambler_53bitOrder49.vhd=VHDL Source Code
+.\src\up\descrambler_58bitOrder58.vhd=VHDL Source Code
+.\src\up\descrambler_60bitOrder58.vhd=VHDL Source Code
+.\src\up\fec_rsDecoderN15K13.vhd=VHDL Source Code
+.\src\up\fec_rsDecoderN31K29.vhd=VHDL Source Code
+.\src\up\lpgbtfpga_decoder.vhd=VHDL Source Code
+.\src\up\lpgbtfpga_deinterleaver.vhd=VHDL Source Code
+.\src\up\lpgbtfpga_descrambler.vhd=VHDL Source Code
+.\src\up\lpgbtfpga_framealigner.vhd=VHDL Source Code
+.\src\up\lpgbtfpga_rxgearbox.vhd=VHDL Source Code
+[Files]
+/lpgbtfpga_uplink.vhd=-1
+/lpgbtfpga_downlink.vhd=-1
+/lpgbtfpga_package.vhd=-1
+/downlink.asdb=-1
+/downlink.awc=-1
+down/lpgbtfpga_encoder.vhd=-1
+down/lpgbtfpga_interleaver.vhd=-1
+down/lpgbtfpga_scrambler.vhd=-1
+down/lpgbtfpga_txgearbox.vhd=-1
+down/rs_encoder_N7K5.vhd=-1
+up/descrambler_51bitOrder49.vhd=-1
+up/descrambler_53bitOrder49.vhd=-1
+up/descrambler_58bitOrder58.vhd=-1
+up/descrambler_60bitOrder58.vhd=-1
+up/fec_rsDecoderN15K13.vhd=-1
+up/fec_rsDecoderN31K29.vhd=-1
+up/lpgbtfpga_decoder.vhd=-1
+up/lpgbtfpga_deinterleaver.vhd=-1
+up/lpgbtfpga_descrambler.vhd=-1
+up/lpgbtfpga_framealigner.vhd=-1
+up/lpgbtfpga_rxgearbox.vhd=-1
+[Groups]
+down=1
+up=1
+[HierarchyViewer]
+HierarchyInformation=lpgbtfpga_downlink|behavioral|0 lpgbtfpga_uplink|behavioral|0
+ShowHide=ShowTopLevel
+Selected=
