@@ -34,6 +34,11 @@ Ahora bien, para simular ambos bloques es necesario el bloque MGT por lo que lo 
 
 ![image](https://github.com/user-attachments/assets/5885bb78-21cf-434d-94f6-4dafade5bef6)
 ---
+Simulando el bloque MGT con valores obtenidos del test bench,
+
+![image](https://github.com/user-attachments/assets/b354d496-b923-4a0d-a0c4-4de348976240)
+---
+
 
 
 
