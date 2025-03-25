@@ -2,9 +2,9 @@
 <design-settings>
 	<plugins>
 		<Aldec.Stimuli.1>
-			<hierarchy activeStimuliSetName="uplink">
+			<hierarchy>
 				<stimuliSet name="downlink">
-					<stimulus name="clk_i" strength="default" enabled="true" type="clock">
+					<stimulus name="clk_i" strength="default" enabled="false" type="clock">
 						<stimulus_data>
 							<period value="3125ps"/>
 							<low_value value="0"/>
@@ -20,7 +20,7 @@
 							<signal path="/lpgbtfpga_downlink/clk_i"/>
 						</signals>
 					</stimulus>
-					<stimulus name="clkEn_i" strength="default" enabled="true" type="clock">
+					<stimulus name="clkEn_i" strength="default" enabled="false" type="clock">
 						<stimulus_data>
 							<period value="28125ps"/>
 							<low_value value="0"/>
@@ -36,7 +36,7 @@
 							<signal path="/lpgbtfpga_downlink/clkEn_i"/>
 						</signals>
 					</stimulus>
-					<stimulus name="rst_n_i" strength="default" enabled="true" type="formula">
+					<stimulus name="rst_n_i" strength="default" enabled="false" type="formula">
 						<stimulus_data>
 							<repeat_time value="0fs" enabled="false"/>
 							<cancel_time value="0fs" enabled="false"/>
@@ -49,7 +49,7 @@
 							<signal path="/lpgbtfpga_downlink/rst_n_i"/>
 						</signals>
 					</stimulus>
-					<stimulus name="UserData_i" strength="default" enabled="true" type="value">
+					<stimulus name="UserData_i" strength="default" enabled="false" type="value">
 						<stimulus_data>
 							<value value="12345678"/>
 							<radix value="hexadecimal"/>
@@ -59,7 +59,7 @@
 							<signal path="/lpgbtfpga_downlink/userData_i"/>
 						</signals>
 					</stimulus>
-					<stimulus name="ECData_i" strength="default" enabled="true" type="value">
+					<stimulus name="ECData_i" strength="default" enabled="false" type="value">
 						<stimulus_data>
 							<value value="11"/>
 							<radix value="binary"/>
@@ -69,7 +69,7 @@
 							<signal path="/lpgbtfpga_downlink/ECData_i"/>
 						</signals>
 					</stimulus>
-					<stimulus name="ICData_i" strength="default" enabled="true" type="value">
+					<stimulus name="ICData_i" strength="default" enabled="false" type="value">
 						<stimulus_data>
 							<value value="11"/>
 							<radix value="binary"/>
@@ -79,7 +79,7 @@
 							<signal path="/lpgbtfpga_downlink/ICData_i"/>
 						</signals>
 					</stimulus>
-					<stimulus name="interleaverBypass_i" strength="default" enabled="true" type="value">
+					<stimulus name="interleaverBypass_i" strength="default" enabled="false" type="value">
 						<stimulus_data>
 							<value value="0"/>
 							<radix value="binary"/>
@@ -89,7 +89,7 @@
 							<signal path="/lpgbtfpga_downlink/interleaverBypass_i"/>
 						</signals>
 					</stimulus>
-					<stimulus name="encoderBypass_i" strength="default" enabled="true" type="value">
+					<stimulus name="encoderBypass_i" strength="default" enabled="false" type="value">
 						<stimulus_data>
 							<value value="0"/>
 							<radix value="binary"/>
@@ -99,7 +99,7 @@
 							<signal path="/lpgbtfpga_downlink/encoderBypass_i"/>
 						</signals>
 					</stimulus>
-					<stimulus name="scramblerBypass_i" strength="default" enabled="true" type="value">
+					<stimulus name="scramblerBypass_i" strength="default" enabled="false" type="value">
 						<stimulus_data>
 							<value value="0"/>
 							<radix value="binary"/>
@@ -111,7 +111,7 @@
 					</stimulus>
 				</stimuliSet>
 				<stimuliSet name="uplink">
-					<stimulus name="uplinkClk_i" strength="default" enabled="true" type="clock">
+					<stimulus name="uplinkClk_i" strength="default" enabled="false" type="clock">
 						<stimulus_data>
 							<period value="3125ps"/>
 							<low_value value="0"/>
@@ -127,7 +127,7 @@
 							<signal path="/lpgbtfpga_uplink/uplinkClk_i"/>
 						</signals>
 					</stimulus>
-					<stimulus name="uplinkRst_n_i" strength="default" enabled="true" type="formula">
+					<stimulus name="uplinkRst_n_i" strength="default" enabled="false" type="formula">
 						<stimulus_data>
 							<repeat_time value="50ns" enabled="false"/>
 							<cancel_time value="0fs" enabled="false"/>
@@ -142,7 +142,7 @@
 							<signal path="/lpgbtfpga_uplink/uplinkRst_n_i"/>
 						</signals>
 					</stimulus>
-					<stimulus name="mgt_word_i" strength="default" enabled="true" type="value">
+					<stimulus name="mgt_word_i" strength="default" enabled="false" type="value">
 						<stimulus_data>
 							<value value="0F00000F"/>
 							<radix value="hexadecimal"/>
@@ -152,7 +152,7 @@
 							<signal path="/lpgbtfpga_uplink/mgt_word_i"/>
 						</signals>
 					</stimulus>
-					<stimulus name="bypassInterleaver_i" strength="default" enabled="true" type="value">
+					<stimulus name="bypassInterleaver_i" strength="default" enabled="false" type="value">
 						<stimulus_data>
 							<value value="0"/>
 							<radix value="binary"/>
@@ -162,7 +162,7 @@
 							<signal path="/lpgbtfpga_uplink/bypassInterleaver_i"/>
 						</signals>
 					</stimulus>
-					<stimulus name="bypassFECEncoder_i" strength="default" enabled="true" type="value">
+					<stimulus name="bypassFECEncoder_i" strength="default" enabled="false" type="value">
 						<stimulus_data>
 							<value value="0"/>
 							<radix value="binary"/>
@@ -172,7 +172,7 @@
 							<signal path="/lpgbtfpga_uplink/bypassFECEncoder_i"/>
 						</signals>
 					</stimulus>
-					<stimulus name="bypassScrambler_i" strength="default" enabled="true" type="value">
+					<stimulus name="bypassScrambler_i" strength="default" enabled="false" type="value">
 						<stimulus_data>
 							<value value="0"/>
 							<radix value="binary"/>
@@ -180,6 +180,122 @@
 						</stimulus_data>
 						<signals>
 							<signal path="/lpgbtfpga_uplink/bypassScrambler_i"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="MGT">
+					<stimulus name="MGT_SERCLK_i" strength="default" enabled="false" type="clock">
+						<stimulus_data>
+							<period value="3125ps"/>
+							<low_value value="0"/>
+							<high_value value="1"/>
+							<starting_value value="low"/>
+							<duty_cycle value="50.000000"/>
+							<offset value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<frequency_jitter value="0fs" enabled="false"/>
+							<phase_jitter value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/serdes_ideal/MGT_SERCLK_i"/>
+						</signals>
+					</stimulus>
+					<stimulus name="MGT_FREEDRPCLK_i" strength="default" enabled="false" type="clock">
+						<stimulus_data>
+							<period value="8ns"/>
+							<low_value value="0"/>
+							<high_value value="1"/>
+							<starting_value value="low"/>
+							<duty_cycle value="50.000000"/>
+							<offset value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<frequency_jitter value="0fs" enabled="false"/>
+							<phase_jitter value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/serdes_ideal/MGT_FREEDRPCLK_i"/>
+						</signals>
+					</stimulus>
+					<stimulus name="MGT_TXRESET_i" strength="default" enabled="false" type="value">
+						<stimulus_data>
+							<value value="0"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/serdes_ideal/MGT_TXRESET_i"/>
+						</signals>
+					</stimulus>
+					<stimulus name="MGT_RXRESET_i" strength="default" enabled="false" type="value">
+						<stimulus_data>
+							<value value="0"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/serdes_ideal/MGT_RXRESET_i"/>
+						</signals>
+					</stimulus>
+					<stimulus name="MGT_TXPolarity_i" strength="default" enabled="false" type="value">
+						<stimulus_data>
+							<value value="0"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/serdes_ideal/MGT_TXPolarity_i"/>
+						</signals>
+					</stimulus>
+					<stimulus name="MGT_RXPolarity_i" strength="default" enabled="false" type="value">
+						<stimulus_data>
+							<value value="0"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/serdes_ideal/MGT_RXPolarity_i"/>
+						</signals>
+					</stimulus>
+					<stimulus name="MGT_RXSlide_i" strength="default" enabled="false" type="clock">
+						<stimulus_data>
+							<period value="100ns"/>
+							<low_value value="0"/>
+							<high_value value="1"/>
+							<starting_value value="low"/>
+							<duty_cycle value="50.000000"/>
+							<offset value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<frequency_jitter value="0fs" enabled="false"/>
+							<phase_jitter value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/serdes_ideal/MGT_RXSlide_i"/>
+						</signals>
+					</stimulus>
+					<stimulus name="MGT_USRWORD_i" strength="default" enabled="false" type="value">
+						<stimulus_data>
+							<value value="12345678"/>
+							<radix value="hexadecimal"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/serdes_ideal/MGT_USRWORD_i"/>
+						</signals>
+					</stimulus>
+					<stimulus name="RX_i" strength="default" enabled="false" type="clock">
+						<stimulus_data>
+							<period value="100ns"/>
+							<low_value value="0"/>
+							<high_value value="1"/>
+							<starting_value value="low"/>
+							<duty_cycle value="50.000000"/>
+							<offset value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<frequency_jitter value="0fs" enabled="false"/>
+							<phase_jitter value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/serdes_ideal/RX_i"/>
 						</signals>
 					</stimulus>
 				</stimuliSet>

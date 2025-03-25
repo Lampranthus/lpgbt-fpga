@@ -1,0 +1,32 @@
+stages:
+  - compile
+  - simulate
+
+cache:
+  paths:
+    - work/
+    
+before_script:
+  - export PATH=$PATH:/afs/cern.ch/project/parc/questa101d/questa_sim/linux_x86_64/
+  - export MGLS_LICENSE_FILE="1717@lxlicen01,1717@lxlicen02,1717@lxlicen03;1717@lnxmics1;1717@lxlicen08"
+  - export LM_LICENSE_FILE=1702@lxlicen08
+  - git submodule update --init --recursive
+
+work-compile:
+  stage: compile
+  script:
+    - vsim -c -do TCL/CI-compile.tcl
+  tags:
+    - Questa
+
+work-simulate:
+  stage: simulate
+  script:
+    - vsim -c -do TCL/CI-test.tcl -wlf vsim.wlf
+  tags:
+    - Questa
+  artifacts:
+    name: simulation-waveform
+    when: always
+    paths:
+      - vsim.wlf

@@ -1,13 +1,23 @@
-Active-HDL 15.0.261.9132 2025-03-22 21:45:40
+Active-HDL 15.0.261.9132 2025-03-23 22:17:19
 
 Elaboration top modules:
-Architecture                  behavioral(lpgbtfpga_uplink)
+Architecture                  behavioral(lpgbtFpga)
 
 
 ----------------------------------------------------------------------------------------------------------
 Entity                  | Architecture | Library | Info | Compiler Version          | Compilation Options
 ----------------------------------------------------------------------------------------------------------
+lpgbtFpga               | behavioral   | lpgbt   |      | 15.0.261.9132 (Windows64) | -O3
+cdc_tx                  | rtl          | lpgbt   |      | 15.0.261.9132 (Windows64) | -O3
+lpgbtfpga_downlink      | behavioral   | lpgbt   |      | 15.0.261.9132 (Windows64) | -O3
 lpgbtfpga_uplink        | behavioral   | lpgbt   |      | 15.0.261.9132 (Windows64) | -O3
+cdc_rx                  | rtl          | lpgbt   |      | 15.0.261.9132 (Windows64) | -O3
+serdes_ideal            | high_level   | lpgbt   |      | 15.0.261.9132 (Windows64) | -O3
+lpgbtfpga_scrambler     | behavioral   | lpgbt   |      | 15.0.261.9132 (Windows64) | -O3
+lpgbtfpga_encoder       | behavioral   | lpgbt   |      | 15.0.261.9132 (Windows64) | -O3
+lpgbtfpga_interleaver   | behavioral   | lpgbt   |      | 15.0.261.9132 (Windows64) | -O3
+lpgbtfpga_txGearbox     | behavioral   | lpgbt   |      | 15.0.261.9132 (Windows64) | -O3
+rs_encoder_N7K5         | behavioral   | lpgbt   |      | 15.0.261.9132 (Windows64) | -O3
 lpgbtfpga_framealigner  | behavioral   | lpgbt   |      | 15.0.261.9132 (Windows64) | -O3
 lpgbtfpga_deinterleaver | behavioral   | lpgbt   |      | 15.0.261.9132 (Windows64) | -O3
 lpgbtfpga_decoder       | behavioral   | lpgbt   |      | 15.0.261.9132 (Windows64) | -O3
@@ -38,3 +48,9 @@ ieee                                   | Standard IEEE packages library
 lpgbt                                  | None
 std                                    | Standard VHDL library
 ----------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+lpgbtfpga lpgbtfpga behavioral
+
+
+The performance of simulation is reduced. Version Student Edition

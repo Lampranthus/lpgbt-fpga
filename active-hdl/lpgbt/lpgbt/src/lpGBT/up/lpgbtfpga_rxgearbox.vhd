@@ -118,7 +118,8 @@ BEGIN                 --========####   Architecture Body   ####========--
                sta_gbRdy_s0   <= '1';
                sta_gbRdy_s    <= sta_gbRdy_s0; --Delay ready for 1 word. First word could be corrupted
             END IF;
-
+			
+			
             reg0((c_inputWidth*(1+cnter))-1 downto (c_inputWidth*cnter))     <= dat_inFrame_s;
             cnter                                                            := cnter + 1;
 

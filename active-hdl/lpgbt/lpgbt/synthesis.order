@@ -1,6 +1,3 @@
-i<>.\src\lpgbtfpga_uplink.vhd
-i<>.\src\lpgbtfpga_downlink.vhd
-i<>.\src\lpgbtfpga_package.vhd
 i<>.\src\descrambler_51bitOrder49.vhd
 i<>.\src\descrambler_53bitOrder49.vhd
 i<>.\src\descrambler_58bitOrder58.vhd
@@ -17,3 +14,20 @@ i<>.\src\lpgbtfpga_interleaver.vhd
 i<>.\src\lpgbtfpga_scrambler.vhd
 i<>.\src\lpgbtfpga_txgearbox.vhd
 i<>.\src\rs_encoder_N7K5.vhd
+i<>.\src\serdes_ideal.vhd
+i<>.\src\lpgbtfpga.vhd
+i<>.\src\cdc_rx.vhd
+i<>.\src\cdc_tx.vhd
+i<>.\src\lpgbtfpga_sim.vhd
+i<>.\src\prbs7_1b_checker.vhd
+i<>.\src\prbs7_1b_generator.vhd
+i<>.\src\prbs7_2b_checker.vhd
+i<>.\src\prbs7_2b_generator.vhd
+i<>.\src\prbs7_4b_checker.vhd
+i<>.\src\prbs7_4b_generator.vhd
+i<>.\src\prbs7_8b_checker.vhd
+i<>.\src\prbs7_8b_generator.vhd
+i<>.\src\prbs7_16b_checker.vhd
+i<>.\src\prbs7_32b_checker.vhd
+i<>.\src\prbs7_64b_generator.vhd
+i<>.\src\LpGBT_Testbench.vhd

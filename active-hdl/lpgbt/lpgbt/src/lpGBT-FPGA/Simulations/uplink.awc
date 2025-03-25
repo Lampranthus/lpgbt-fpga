@@ -1,0 +1,100 @@
+<config>
+    <version>
+        3.1
+    </version>
+    <comment>
+    </comment>
+    <databases>
+        <database id="">*virtual*</database>
+        <database id="1413332cf03bf665e06758a7f2136f00">uplink.asdb</database>
+    </databases>
+    <gridshown/>
+    <signallists>
+        <signallist id="0">
+        <signal>/lpgbtfpga_uplink/sta_headerFlag_s</signal>
+        <signal>/lpgbtfpga_uplink/sta_dataflag_s</signal>
+        <signal>/lpgbtfpga_uplink/rst_gearbox_s</signal>
+        <signal>/lpgbtfpga_uplink/sta_headerLocked_s</signal>
+        <signal>/lpgbtfpga_uplink/gbxFrame_s</signal>
+        <signal>/lpgbtfpga_uplink/gbxFrame_5g12_s</signal>
+        <signal>/lpgbtfpga_uplink/sta_gbRdy_s</signal>
+        <signal>/lpgbtfpga_uplink/rst_pattsearch_s</signal>
+        <signal>/lpgbtfpga_uplink/datapath_rst_s</signal>
+        <signal>/lpgbtfpga_uplink/fec5_data_from_deinterleaver_s</signal>
+        <signal>/lpgbtfpga_uplink/fec5_fec_from_deinterleaver_s</signal>
+        <signal>/lpgbtfpga_uplink/fec12_data_from_deinterleaver_s</signal>
+        <signal>/lpgbtfpga_uplink/fec12_fec_from_deinterleaver_s</signal>
+        <signal>/lpgbtfpga_uplink/fec5_data_from_decoder_s</signal>
+        <signal>/lpgbtfpga_uplink/fec12_data_from_decoder_s</signal>
+        <signal>/lpgbtfpga_uplink/fec5_data_from_descrambler_s</signal>
+        <signal>/lpgbtfpga_uplink/fec12_data_from_descrambler_s</signal>
+        <signal>/lpgbtfpga_uplink/fec5_correction_s</signal>
+        <signal>/lpgbtfpga_uplink/fec12_correction_s</signal>
+        <signal>/lpgbtfpga_uplink/rdy_0_s</signal>
+        <signal>/lpgbtfpga_uplink/rdy_1_s</signal>
+        <signal>/lpgbtfpga_uplink/UserData_10g24_s</signal>
+        <signal>/lpgbtfpga_uplink/EcData_10g24_s</signal>
+        <signal>/lpgbtfpga_uplink/IcData_10g24_s</signal>
+        <signal>/lpgbtfpga_uplink/UserData_5g12_s</signal>
+        <signal>/lpgbtfpga_uplink/EcData_5g12_s</signal>
+        <signal>/lpgbtfpga_uplink/IcData_5g12_s</signal>
+        <signal>/lpgbtfpga_uplink/uplinkCorrData_10g24_s</signal>
+        <signal>/lpgbtfpga_uplink/uplinkCorrEc_10g24_s</signal>
+        <signal>/lpgbtfpga_uplink/uplinkCorrIc_10g24_s</signal>
+        <signal>/lpgbtfpga_uplink/uplinkCorrData_5g12_s</signal>
+        <signal>/lpgbtfpga_uplink/uplinkCorrEc_5g12_s</signal>
+        <signal>/lpgbtfpga_uplink/uplinkCorrIc_5g12_s</signal>
+        <signal>/lpgbtfpga_uplink/frame_pipelined_s</signal>
+        <signal>/lpgbtfpga_uplink/clkEnOut_s</signal>
+        <signal>/lpgbtfpga_uplink/rst_synch_s</signal>
+        <signal>/lpgbtfpga_uplink/uplinkClk_i</signal>
+        <signal>/lpgbtfpga_uplink/uplinkClkOutEn_o</signal>
+        <signal>/lpgbtfpga_uplink/uplinkRst_n_i</signal>
+        <signal>/lpgbtfpga_uplink/mgt_word_i</signal>
+        <signal>/lpgbtfpga_uplink/userData_o</signal>
+        <signal>/lpgbtfpga_uplink/EcData_o</signal>
+        <signal>/lpgbtfpga_uplink/IcData_o</signal>
+        <signal>/lpgbtfpga_uplink/bypassInterleaver_i</signal>
+        <signal>/lpgbtfpga_uplink/bypassFECEncoder_i</signal>
+        <signal>/lpgbtfpga_uplink/bypassScrambler_i</signal>
+        <signal>/lpgbtfpga_uplink/mgt_bitslipCtrl_o</signal>
+        <signal>/lpgbtfpga_uplink/dataCorrected_o</signal>
+        <signal>/lpgbtfpga_uplink/IcCorrected_o</signal>
+        <signal>/lpgbtfpga_uplink/EcCorrected_o</signal>
+        <signal>/lpgbtfpga_uplink/rdy_o</signal>
+        <signal>/lpgbtfpga_uplink/frameAlignerEven_o</signal>
+        </signallist>
+    </signallists>
+    <timebases>
+        <timebase id="0">
+            <time start_time="902539" end_time="1014408" />
+        </timebase>
+    </timebases>
+    <prefbases>
+        <prefbase id="0" >
+        </prefbase>
+    </prefbases>
+    <bookmarkbases>
+        <bookmarks id="0">
+            <bookmark value="1833"/>
+            <bookmark value="6500170"/>
+            <bookmark value="6508646"/>
+        </bookmarks>
+    </bookmarkbases>
+    <cursorbases>
+        <cursors id="0">
+            <cursor value="920312" label="Cursor 11" locked="0" />
+            <cursor value="945312" label="Cursor 12" locked="0" />
+            <cursor value="970312" label="Cursor 13" locked="0" />
+        </cursors>
+    </cursorbases>
+    <measurementbases>
+    </measurementbases>
+    <commentbases>
+        <comments id="0">
+        </comments>
+    </commentbases>
+    <views>
+        <view signallist="0" propertybase="0" prefbase="0" type="1" bookmarks="0" cursors="0" measurements="-1" comments="-1" />
+    </views>
+</config>

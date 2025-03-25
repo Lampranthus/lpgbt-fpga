@@ -1,0 +1,6 @@
+[submodule "lpgbt-fpga"]
+	path = lpgbt-fpga
+	url = ../lpgbt-fpga.git
+[submodule "lpgbt_model"]
+	path = lpgbt_model
+	url = ../../lpgbt/model/lpgbt_model.git

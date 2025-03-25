@@ -22,7 +22,7 @@ ENTITY lpgbtfpga_uplink IS
    GENERIC(
         -- General configuration
         DATARATE                        : integer RANGE 0 to 2 := DATARATE_10G24;                               --! Datarate selection can be: DATARATE_10G24 or DATARATE_5G12
-        FEC                             : integer RANGE 0 to 2 := FEC12;                               --! FEC selection can be: FEC5 or FEC12
+        FEC                             : integer RANGE 0 to 2 := FEC5;                               --! FEC selection can be: FEC5 or FEC12
 
         -- Expert parameters
         c_multicyleDelay                : integer RANGE 0 to 7 := 3;                          --! Multicycle delay: Used to relax the timing constraints
