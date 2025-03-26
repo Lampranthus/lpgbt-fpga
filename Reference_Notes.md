@@ -38,7 +38,9 @@ Simulando el bloque MGT con valores obtenidos del test bench,
 
 ![image](https://github.com/user-attachments/assets/b354d496-b923-4a0d-a0c4-4de348976240)
 ---
-
+Ahora quiero simular el questa el lpgbt model que me dieron, descargue quartus prime lite que viene con questa fse pero para abrir questa tienes que primero abrir quartus ir a tools, lecense setup y get no-cost licenses, seleccionas la opcion de questa y te creara un archivo .dat que tienes que agregar al path de windows en variables de entorno, creas una nueva variable del sistema y la llamas LM_LICENSE_FILE con el valor de la direccion de archivo .dat, en mi caso C:/Users/Lampranthus/quartus2_lic.dat.
+Ahora se puede abrir questa fse.
+---
 
 
 
