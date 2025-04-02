@@ -103,6 +103,23 @@ Una vez en este punto podemos hacer algunas cosas en la simulación gracias al s
 La simulación debe llegar hasta este punto ya que el modelos del lpgbt nos dice que el asic está listo a los caso 1400us y de este punto ya está listo para poder jugar con los comandos de uplink y downlink y ver como el sistema realcciona.
 
 ---
+Inicio de la simulación:
+
+![sim-1](https://github.com/user-attachments/assets/cc9c84ea-af5f-426c-b811-a4a116179fba)
+
+despues de la simulacion con los scripts dentro de archivo testbench.tcl se pueden cambiar los bits de upLink que en lpgbt model le envia al lpgbt-fpga y se pude ver como el Uplink user cambia;
+
+![002ff1](https://github.com/user-attachments/assets/731b8c18-91dd-40e7-9f4d-463e82022a2d)
+
+editando los valores en el script para hacer otra secuancia de datos que no sea puro 1 o 0 como viene en el script se llega a lo mismo,
+
+![ff20102](https://github.com/user-attachments/assets/b314dc5f-bb6b-450b-b983-df905b0b6a20)
+
+ahora bien, lo que no pude lograr es hacer que los bits downlink del lpgbt cambiaran, supongo que esos bits representan el dato que le envia el lpgbt-fpga al lpgbt pero al parecer o el lpgbt no lo recibe o se necesita mas tiempo par que estos bits cambien.
+
+
+
+
 
 
 
